@@ -26,4 +26,4 @@ def saves(names,list1):
 print("\033c\033[43;30m\n")
 aaa=build(80,5,2)
 printv(aaa)
-saves("data.txt",aaa)
+saves("data.csv",aaa)
