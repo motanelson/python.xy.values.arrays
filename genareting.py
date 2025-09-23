@@ -1,18 +1,21 @@
-def printxy(values):
+def printxyz(values):
     print("x,y="+str(values))
 
 def printv(a):
     for aa in a:
-        printxy(aa)
+        printxyz(aa)
 
 def build(lena,incx,incy):
     x=0
     y=0
+    z=0
     list1=[]
     for n in range(lena):
-        list1=list1+[(x,y)]
+        l1=[x,y]
+        list1=list1+[l1]
         x=x+incx
         y=y+incy
+        
     return list1 
 def saves(names,list1):
     f1=open(names,"w")
