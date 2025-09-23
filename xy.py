@@ -1,11 +1,11 @@
-def printxy(values):
+def printxyz(values):
     print("x,y="+str(values))
 
 def printv(a):
     for aa in a:
-        printxy(aa)
+        printxyz(aa)
 
 print("\033c\033[43;30m\n")
-aaa=[(0,1),(1,0),(0,0),(1,1)]
+aaa=[[0,1],[1,0],[0,0],[1,1]]
 
 printv(aaa)
